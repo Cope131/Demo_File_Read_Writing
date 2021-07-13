@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private final String DEBUG_TAG = MainActivity.class.getSimpleName();
     private static final int REQUEST_CODE = 101;
+
     // File
     private String folderLocPath;
     private File dataFile;

@@ -17,19 +17,22 @@
             android:id="@+id/write_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="write"/>
+            android:text="write"
+            android:layout_margin="10dp" />
 
         <Button
             android:id="@+id/read_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="read"/>
+            android:text="read"
+            android:layout_margin="10dp" />
 
     </LinearLayout>
 
     <TextView
         android:id="@+id/content_text_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"/>
 
 </LinearLayout>
